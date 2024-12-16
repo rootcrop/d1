@@ -7,7 +7,6 @@ import pandas as pd
 # этот набор имеет данные : total_bill, tip, sex, smoker, day, time, size
 df = tips = px.data.tips()
 
-
 '''
 Plotly      базовый вывод: линейный график (line plot) по дням (x) и средний общий счет (y)
 '''
@@ -16,8 +15,6 @@ Plotly      базовый вывод: линейный график (line plot)
 df_grouped = df.groupby('day')['total_bill'].mean().reset_index()
 fig = px.line(df_grouped, x="day", y="total_bill", title="Plotly. Линейный график: средний общий счет за день")
 fig.show()
-
-
 
 '''
 Plotly      базовый вывод: круговая диаграмма (pie chart).
@@ -29,8 +26,6 @@ fig = px.histogram(df, x="total_bill", facet_row="day", facet_col="time",
 fig = px.pie(df, names='day', values='total_bill', title="Plotly. Общее распределение счетов по дням")
 fig.show()
 
-
-
 '''
 Plotly      коробчатый график (box plot) общего счета в разбивке по дням и полу.
 '''
@@ -38,8 +33,6 @@ Plotly      коробчатый график (box plot) общего счета
 fig = px.box(df, x="day", y="total_bill", color="sex", title="Plotly. Коробчатый график "
                                                              "общего счета в разбивке по дням и полу")
 fig.show()
-
-
 
 '''
 Plotly      диаграмма рассеяния (scatter plot) показывающая соотношение чаевых 
@@ -50,8 +43,6 @@ fig = px.scatter(df, x="total_bill", y="tip", color="smoker", size='size', opaci
                  title="Plotly. Соотношение чаевых и общего счета в зависимости от статуса (не)курильщика")
 fig.show()
 
-
-
 '''
 Plotly      диаграмма общего счета (sunburst chart) в разбивке по дням, полу и времени  
 '''
@@ -61,8 +52,6 @@ fig = px.sunburst(df,
                   values='total_bill',
                   title="Plotly. Подробная круговая диаграмма общего счета в разбивке по дням, полу и времени")
 fig.show()
-
-
 
 '''
 Plotly      трехмерная диаграмма рассеяния (3D scatter plot)
@@ -82,13 +71,12 @@ fig = px.scatter_3d(df,
                     title="Plotly. 3D график зависимости чаевых(tip) от общей суммы счета(total bill): "
                           "по дням, времени и размеру компании(party size)")
 
-fig.update_layout(scene=dict(   # обновленный макет осей X,Y,Z для сцены
+fig.update_layout(scene=dict(  # обновленный макет осей X,Y,Z для сцены
     xaxis_title='Total Bill',
     yaxis_title='Tip',
     zaxis_title='Party Size'
 ))
 fig.show()
-
 
 '''
 Plotly      пример использования карты хороплет (choropleth map),
