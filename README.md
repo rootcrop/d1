@@ -4,21 +4,37 @@
 
 
 ![img2](https://github.com/rootcrop/d1/blob/main/1matplotlib_1line_plot.png)
+
 ![img3](https://github.com/rootcrop/d1/blob/main/1matplotlib_2scatter_plot.png)
+
 ![img4](https://github.com/rootcrop/d1/blob/main/1matplotlib_3bar_chart.png)
+
 ![img5](https://github.com/rootcrop/d1/blob/main/1matplotlib_4histogram.png)
+
 ![img6](https://github.com/rootcrop/d1/blob/main/1matplotlib_5two_plots.png)
+
 ![img7](https://github.com/rootcrop/d1/blob/main/1matplotlib_6_3d_plots.png)
+
 ![img8](https://github.com/rootcrop/d1/blob/main/1matplotlib_7_interact0_anim.gif)
+
 ![img9](https://github.com/rootcrop/d1/blob/main/2_seaborn_1_regplot.png)
+
 ![img10](https://github.com/rootcrop/d1/blob/main/2_seaborn_2_histplot.png)
+
 ![img11](https://github.com/rootcrop/d1/blob/main/2_seaborn_3_relplot.png)
+
 ![img12](https://github.com/rootcrop/d1/blob/main/2_seaborn_4_grid.png)
+
 ![img13](https://github.com/rootcrop/d1/blob/main/2_seaborn_5_swarmplot.png)
+
 ![img14](https://github.com/rootcrop/d1/blob/main/2_seaborn_6_heatmap.png)
+
 ![img15](https://github.com/rootcrop/d1/blob/main/2_seaborn_8_interact.png)
+
 ![img16](https://github.com/rootcrop/d1/blob/main/3_plotly_5_sunburstChart.png)
+
 ![img17](https://github.com/rootcrop/d1/blob/main/3_plotly_6_scatter_3d_0.gif)
+
 ![img18](https://github.com/rootcrop/d1/blob/main/3_plotly_7_choroplethMap.png)
 
 
