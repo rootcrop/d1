@@ -1,6 +1,6 @@
 Сравнение библиотек  для визуализации данных.
 
-Небольшое исследование трех основных Python библиотек для визуализации данных: Matplotlib, Seaborn, Plotly
+Исследование трех основных Python библиотек для визуализации данных: Matplotlib, Seaborn, Plotly
 
 
 ![img2](https://github.com/rootcrop/d1/blob/main/1matplotlib_1line_plot.png)
